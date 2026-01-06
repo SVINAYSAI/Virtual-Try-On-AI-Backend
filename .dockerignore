@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints
+
+# Output files (will be created in container)
+outputs/
+*.png
+*.jpg
+*.jpeg
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+*.txt
+!requirements.txt
+
+# Allow credentials file
+!marine-set-447307-k6-d2077b260b04.json
+
