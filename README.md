@@ -1,4 +1,4 @@
-# Mesikas AI Backend 🎨👗
+# Virtual try on AI Backend 🎨👗
 
 A powerful and versatile AI-powered backend API for fashion and styling applications. Built with **FastAPI** and **Google Vertex AI**, this platform provides advanced image processing and virtual try-on capabilities using cutting-edge generative AI models.
 
@@ -25,7 +25,7 @@ A powerful and versatile AI-powered backend API for fashion and styling applicat
 ## 🏗️ Project Structure
 
 ```
-mesikas_ai/
+/
 ├── main.py                              # FastAPI application entry point
 ├── config.py                            # Vertex AI configuration & initialization
 ├── requirements.txt                     # Python dependencies
@@ -66,7 +66,7 @@ mesikas_ai/
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd mesikas_ai
+   cd 
    ```
 
 2. **Set up Python environment**
@@ -104,14 +104,14 @@ mesikas_ai/
 
 ### Build Docker Image
 ```bash
-docker build -t mesikas-ai:latest .
+docker build -t virtual-try-on-ai:latest .
 ```
 
 ### Run Docker Container
 ```bash
 docker run -p 8000:8000 \
   -e PROJECT_ID=your-project-id \
-  mesikas-ai:latest
+  virtual-try-on-ai:latest
 ```
 
 ### Docker Compose (Optional)
